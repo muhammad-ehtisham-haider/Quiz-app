@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.main{
+  min-height: 100vh;
+  width: 100%;
+  background-color: skyblue;
+}
+.box{
+  width: 500px;
+  height: 500px;
+  background-color: white;
+  border-radius: 20px;
+}
+.questions{
+  width: 90%;
+  height: 80px;
+  border: 2px solid gray;
+  border-radius: 5px;
+  box-shadow: 0px 0px 7px -1px;
+  text-align: center;
+  padding-top: 20px;
+}
+.option-button{
+  width: 80%;
+  height: 50px;
+  border: 2px solid gray;
+  border-radius: 5px;
+  box-shadow: 0px 0px 7px -1px;
+}
+#Q-no ,#Q-text{
+  font-weight: bold;
+}
+button{
+  font-weight: 600;
+  padding-top: 10px;
+}
+button:hover{
+  background-color: rgb(207, 170, 241);
+}
+.btn-1{
+  display: flex;
+  justify-content: center;
+}
+input{
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+  padding: 8px 13px;
+}
+.checked{
+  background-color: blueviolet;
+}
+.checked:hover{
+  background-color: blueviolet;
+}
+.results{
+  display: flex;
+  justify-content: center;
+  font-weight: 800;
+  line-height: 80px;
+}
